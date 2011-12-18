@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c57a4fc-d045-42d7-ac25-567c52321266" name="tpf@TPF-PC 2011-12-18 14:26:39" runUser="tpf-PC\tpf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0c0b3f71-4a2f-44fd-996e-bb9ca5f13928">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tpf_TPF-PC 2011-12-18 14_26_39">
+      <DeploymentItem filename="E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\bin\Debug\ImifiedCHashLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-18T14:26:39.9951339+05:30" queuing="2011-12-18T14:26:41.1421995+05:30" start="2011-12-18T14:26:41.2762072+05:30" finish="2011-12-18T14:26:53.9229305+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SendMessageTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="c87faff4-184e-4931-387d-82393f9cef9d">
+      <Execution id="203bcca5-4ae6-4dd1-8b25-c46b2d03eee4" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMessageTest" />
+    </UnitTest>
+    <UnitTest name="GetAllUsersTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="bb093d25-0018-2c9c-c3c7-a16045dceadd">
+      <Execution id="06b2e539-5074-4aab-b1d1-4953228b2691" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllUsersTest" />
+    </UnitTest>
+    <UnitTest name="GetUserIdByUserNameTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="a27423ec-f16e-8e11-1888-2065bd17986d">
+      <Execution id="7965d8c0-e815-4312-8616-7d2d66cca51c" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetUserIdByUserNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a27423ec-f16e-8e11-1888-2065bd17986d" executionId="7965d8c0-e815-4312-8616-7d2d66cca51c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb093d25-0018-2c9c-c3c7-a16045dceadd" executionId="06b2e539-5074-4aab-b1d1-4953228b2691" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c87faff4-184e-4931-387d-82393f9cef9d" executionId="203bcca5-4ae6-4dd1-8b25-c46b2d03eee4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7965d8c0-e815-4312-8616-7d2d66cca51c" testId="a27423ec-f16e-8e11-1888-2065bd17986d" testName="GetUserIdByUserNameTest" computerName="TPF-PC" duration="00:00:07.4592129" startTime="2011-12-18T14:26:41.4032145+05:30" endTime="2011-12-18T14:26:49.4516748+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7965d8c0-e815-4312-8616-7d2d66cca51c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ImifiedCHashLibUnitTests.ImifiedFacadeTest.GetUserIdByUserNameTest threw exception: 
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.</Message>
+          <StackTrace>    at System.Net.HttpWebRequest.GetResponse()
+   at ImifiedCHashLib.ImifiedFacade.GetAllUsers(String NetworkName) in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\ImifiedFacade.cs:line 108
+   at ImifiedCHashLib.ImifiedFacade.GetUserIdByUserName(String UserName, String NetworkName) in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\ImifiedFacade.cs:line 123
+   at ImifiedCHashLibUnitTests.ImifiedFacadeTest.GetUserIdByUserNameTest() in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\ImifiedFacadeTest.cs:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06b2e539-5074-4aab-b1d1-4953228b2691" testId="bb093d25-0018-2c9c-c3c7-a16045dceadd" testName="GetAllUsersTest" computerName="TPF-PC" duration="00:00:01.6035614" startTime="2011-12-18T14:26:49.4546750+05:30" endTime="2011-12-18T14:26:51.0607668+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06b2e539-5074-4aab-b1d1-4953228b2691">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ImifiedCHashLibUnitTests.ImifiedFacadeTest.GetAllUsersTest threw exception: 
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.</Message>
+          <StackTrace>    at System.Net.HttpWebRequest.GetResponse()
+   at ImifiedCHashLib.ImifiedFacade.GetAllUsers(String NetworkName) in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\ImifiedFacade.cs:line 108
+   at ImifiedCHashLibUnitTests.ImifiedFacadeTest.GetAllUsersTest() in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\ImifiedFacadeTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="203bcca5-4ae6-4dd1-8b25-c46b2d03eee4" testId="c87faff4-184e-4931-387d-82393f9cef9d" testName="SendMessageTest" computerName="TPF-PC" duration="00:00:02.7348127" startTime="2011-12-18T14:26:51.0647671+05:30" endTime="2011-12-18T14:26:53.8069239+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="203bcca5-4ae6-4dd1-8b25-c46b2d03eee4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ImifiedCHashLibUnitTests.ImifiedFacadeTest.SendMessageTest threw exception: 
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.</Message>
+          <StackTrace>    at System.Net.HttpWebRequest.GetResponse()
+   at ImifiedCHashLib.ImifiedFacade.SendMessage(String UserKey, String MessageText) in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\ImifiedFacade.cs:line 212
+   at ImifiedCHashLibUnitTests.ImifiedFacadeTest.SendMessageTest() in E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\ImifiedFacadeTest.cs:line 106
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

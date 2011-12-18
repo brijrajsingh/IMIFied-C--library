@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce6872be-beba-4479-a5de-7cc90afdfed9" name="tpf@TPF-PC 2011-12-18 14:30:06" runUser="tpf-PC\tpf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0c0b3f71-4a2f-44fd-996e-bb9ca5f13928">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tpf_TPF-PC 2011-12-18 14_30_06">
+      <DeploymentItem filename="E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\bin\Debug\ImifiedCHashLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-18T14:30:06.2089287+05:30" queuing="2011-12-18T14:30:07.4830016+05:30" start="2011-12-18T14:30:07.6330101+05:30" finish="2011-12-18T14:30:24.9760021+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TPF-PC" outcome="Error" timestamp="2011-12-18T14:30:24.9740020+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SendMessageTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="c87faff4-184e-4931-387d-82393f9cef9d">
+      <Execution id="25c4ec1a-a63c-42bc-b7aa-43b5b0446274" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMessageTest" />
+    </UnitTest>
+    <UnitTest name="GetAllUsersTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="bb093d25-0018-2c9c-c3c7-a16045dceadd">
+      <Execution id="16305f55-9342-4bae-b385-344da6d818d7" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllUsersTest" />
+    </UnitTest>
+    <UnitTest name="GetUserIdByUserNameTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="a27423ec-f16e-8e11-1888-2065bd17986d">
+      <Execution id="3aa77239-b6b0-4d32-aab7-0c54351038c1" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetUserIdByUserNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bb093d25-0018-2c9c-c3c7-a16045dceadd" executionId="16305f55-9342-4bae-b385-344da6d818d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a27423ec-f16e-8e11-1888-2065bd17986d" executionId="3aa77239-b6b0-4d32-aab7-0c54351038c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c87faff4-184e-4931-387d-82393f9cef9d" executionId="25c4ec1a-a63c-42bc-b7aa-43b5b0446274" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="16305f55-9342-4bae-b385-344da6d818d7" testId="bb093d25-0018-2c9c-c3c7-a16045dceadd" testName="GetAllUsersTest" computerName="TPF-PC" duration="00:00:17.0889774" startTime="2011-12-18T14:30:07.8870247+05:30" endTime="2011-12-18T14:30:24.9760021+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16305f55-9342-4bae-b385-344da6d818d7">
+    </UnitTestResult>
+    <UnitTestResult executionId="3aa77239-b6b0-4d32-aab7-0c54351038c1" testId="a27423ec-f16e-8e11-1888-2065bd17986d" testName="GetUserIdByUserNameTest" computerName="TPF-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aa77239-b6b0-4d32-aab7-0c54351038c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="25c4ec1a-a63c-42bc-b7aa-43b5b0446274" testId="c87faff4-184e-4931-387d-82393f9cef9d" testName="SendMessageTest" computerName="TPF-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25c4ec1a-a63c-42bc-b7aa-43b5b0446274">
+    </UnitTestResult>
+  </Results>
+</TestRun>

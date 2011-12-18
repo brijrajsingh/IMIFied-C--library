@@ -1,0 +1,7 @@
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLibUnitTests.dll
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLibUnitTests.pdb
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLib.dll
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLib.pdb
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\obj\Debug\ImifiedCHashLibUnitTests.dll
+E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\obj\Debug\ImifiedCHashLibUnitTests.pdb

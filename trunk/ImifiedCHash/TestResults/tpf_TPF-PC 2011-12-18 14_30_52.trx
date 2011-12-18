@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="255b1d13-2cf5-4e9f-be1c-0abf3752f86e" name="tpf@TPF-PC 2011-12-18 14:30:52" runUser="tpf-PC\tpf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0c0b3f71-4a2f-44fd-996e-bb9ca5f13928">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tpf_TPF-PC 2011-12-18 14_30_52">
+      <DeploymentItem filename="E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLib\bin\Debug\ImifiedCHashLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-18T14:30:52.4345726+05:30" queuing="2011-12-18T14:30:53.8706548+05:30" start="2011-12-18T14:30:54.0336641+05:30" finish="2011-12-18T14:30:58.1428991+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="3" error="3" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SendMessageTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="c87faff4-184e-4931-387d-82393f9cef9d">
+      <Execution id="e806a10b-8747-4619-96cd-15aa392b9247" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMessageTest" />
+    </UnitTest>
+    <UnitTest name="GetAllUsersTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="bb093d25-0018-2c9c-c3c7-a16045dceadd">
+      <Execution id="59b779f0-6526-4e46-80fb-ee0fa3cfadc9" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllUsersTest" />
+    </UnitTest>
+    <UnitTest name="GetUserIdByUserNameTest" storage="e:\projects\imifiedchashlib\trunk\imifiedchash\imifiedchashlibunittests\bin\debug\imifiedchashlibunittests.dll" id="a27423ec-f16e-8e11-1888-2065bd17986d">
+      <Execution id="7547cd9d-4dad-4376-8353-0c26ff2ac43c" />
+      <TestMethod codeBase="E:/Projects/ImifiedCHashLib/trunk/ImifiedCHash/ImifiedCHashLibUnitTests/bin/Debug/ImifiedCHashLibUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ImifiedCHashLibUnitTests.ImifiedFacadeTest, ImifiedCHashLibUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetUserIdByUserNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bb093d25-0018-2c9c-c3c7-a16045dceadd" executionId="59b779f0-6526-4e46-80fb-ee0fa3cfadc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a27423ec-f16e-8e11-1888-2065bd17986d" executionId="7547cd9d-4dad-4376-8353-0c26ff2ac43c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c87faff4-184e-4931-387d-82393f9cef9d" executionId="e806a10b-8747-4619-96cd-15aa392b9247" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="59b779f0-6526-4e46-80fb-ee0fa3cfadc9" testId="bb093d25-0018-2c9c-c3c7-a16045dceadd" testName="GetAllUsersTest" computerName="TPF-PC" startTime="2011-12-18T14:30:54.2006736+05:30" endTime="2011-12-18T14:30:55.7777639+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59b779f0-6526-4e46-80fb-ee0fa3cfadc9">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Unrecognized configuration section add. (E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLibUnitTests.DLL.config line 3).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7547cd9d-4dad-4376-8353-0c26ff2ac43c" testId="a27423ec-f16e-8e11-1888-2065bd17986d" testName="GetUserIdByUserNameTest" computerName="TPF-PC" startTime="2011-12-18T14:30:55.8147660+05:30" endTime="2011-12-18T14:30:57.0598372+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7547cd9d-4dad-4376-8353-0c26ff2ac43c">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Unrecognized configuration section add. (E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLibUnitTests.DLL.config line 3).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e806a10b-8747-4619-96cd-15aa392b9247" testId="c87faff4-184e-4931-387d-82393f9cef9d" testName="SendMessageTest" computerName="TPF-PC" startTime="2011-12-18T14:30:57.0718379+05:30" endTime="2011-12-18T14:30:58.1238980+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e806a10b-8747-4619-96cd-15aa392b9247">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Unrecognized configuration section add. (E:\Projects\ImifiedCHashLib\trunk\ImifiedCHash\ImifiedCHashLibUnitTests\bin\Debug\ImifiedCHashLibUnitTests.DLL.config line 3).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
